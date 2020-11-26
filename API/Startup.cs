@@ -45,7 +45,7 @@ namespace API
             app.UseRouting();
 
             app.UseCors(builder => {
-                builder.AllowAnyMethod().AllowAnyHeader().WithOrigins("https://my-dotnet-app.stackblitz.io");
+                builder.AllowAnyMethod().AllowAnyHeader().WithOrigins("https://find-your-match.stackblitz.io");
             });
 
             app.UseAuthentication();
